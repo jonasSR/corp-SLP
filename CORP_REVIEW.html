@@ -1,0 +1,488 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Corporação Musical São Luiz de Tolosa</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="header-content">
+    <div class="header-logos">
+      <img src="https://i.ibb.co/dwLqK3NS/img-brasao.png" alt="Brasão" class="logo-header">
+      <h1>
+        Corporação Musical<br>
+        <span>São Luiz de Tolosa</span>
+      </h1>
+    </div>
+
+    <div class="header-social-top">
+        <a href="https://www.youtube.com/@corporacaomusicalsaoluizde7385" target="_blank" rel="noopener">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" class="social-icon">
+        </a>
+        <a href="https://www.instagram.com/bandasaoluisdetolosa/" target="_blank" rel="noopener">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="social-icon">
+        </a>
+        <a href="https://wa.me/5512997609112" target="_blank" rel="noopener">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="social-icon">
+        </a>
+    </div>
+
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <nav id="menu">
+      <a href="#inicio" onclick="showSection('inicio')">Início</a>
+      <a href="#componentes" onclick="showSection('componentes')">Componentes</a>
+      <a href="#transparencia" onclick="showSection('transparencia')">Transparência</a>
+      <a href="#informativo" onclick="showSection('informativo')">Informativo</a>
+      <a href="#historia" onclick="showSection('historia')">História</a>
+      <a href="#horarios" onclick="showSection('horarios')">Horários</a>
+      <a href="#contato" onclick="showSection('contato')">Contato</a>
+
+      <div class="menu-social">
+        <a href="https://www.youtube.com/@corporacaomusicalsaoluizde7385" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube"></a>
+        <a href="https://www.instagram.com/bandasaoluisdetolosa/" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram"></a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<div class="banner">
+    <h2>Bem-vindo à Corporação Musical São Luiz de Tolosa</h2>
+    <p class="banner-subtitle">Preservando a tradição, formando novos músicos e levando cultura para toda a nossa cidade.</p>
+</div>
+
+<section id="inicio" class="home-section section active">
+    
+<h3 class="video-category-title">📸 Nossa Galeria de Fotos</h3>
+
+<div class="gallery-single-wrapper">
+  <a href="https://i.ibb.co/0yKD0QzS/img-01.jpg"
+     data-fancybox="gallery"
+     data-caption="Corporação Musical"
+     class="gallery-cover">
+
+    <img src="https://i.ibb.co/0yKD0QzS/img-01.jpg" alt="Ver Galeria">
+
+    <div class="gallery-overlay">
+      <span>Ver galeria completa</span>
+    </div>
+  </a>
+
+  <div style="display:none">
+    <a href="https://i.ibb.co/67MY3LxM/img-02.jpg" data-fancybox="gallery"></a>
+    <a href="https://i.ibb.co/fzgnFvT1/img-03.jpg" data-fancybox="gallery"></a>
+    <a href="https://i.ibb.co/7tVJjS0S/img-05.jpg" data-fancybox="gallery"></a>
+    <a href="https://i.ibb.co/nNPs3RcP/img-06.jpg" data-fancybox="gallery"></a>
+    <a href="https://i.ibb.co/hxyb62Xd/img-07.jpg" data-fancybox="gallery"></a>
+    <a href="https://i.ibb.co/vxcK1YvK/img-09.jpg" data-fancybox="gallery"></a>
+    <a href="https://i.ibb.co/BVDdWzQj/img-10.jpg" data-fancybox="gallery"></a>
+    <a href="https://i.ibb.co/v6h0kjDV/img-11.jpg" data-fancybox="gallery"></a>
+  </div>
+</div>
+
+
+<div style="margin: 50px 0;"></div>
+
+<h2 class="section-title">Vídeos em Destaque</h2>
+
+<!-- ================= VÍDEOS DA CORPORAÇÃO (MP4) ================= -->
+<h3 class="video-category-title">🎺 Vídeos da Corporação</h3>
+
+<div class="gallery-single-wrapper">
+
+  <!-- CAPA (VÍDEO REAL) -->
+  <a href="video/video1.mp4"
+     data-fancybox="gallery-corporacao"
+     data-caption="Vídeos da Corporação Musical São Luiz de Tolosa"
+     class="gallery-cover">
+
+    <video preload="metadata" muted playsinline>
+      <source src="video/video1.mp4#t=0.5" type="video/mp4">
+    </video>
+
+    <div class="gallery-overlay">
+      <span>▶ Ver vídeos da corporação</span>
+    </div>
+  </a>
+
+  <!-- VÍDEOS OCULTOS -->
+  <div style="display:none">
+    <a data-fancybox="gallery-corporacao" href="video/video1.mp4"></a>
+    <a data-fancybox="gallery-corporacao" href="video/video2.mp4"></a>
+  </div>
+
+</div>
+
+<h3 class="video-category-title">🎬 Apresentações no YouTube</h3>
+
+<div class="gallery-single-wrapper">
+
+  <a href="https://www.youtube.com/watch?v=iWIYYDH4uFA"
+     target="_blank"
+     rel="noopener"
+     class="gallery-cover">
+
+    <!-- Thumbnail do próprio YouTube (escolha qualquer vídeo) -->
+    <img
+      src="https://i.ytimg.com/an_webp/iWIYYDH4uFA/mqdefault_6s.webp?du=3000&sqp=COCKn8sG&rs=AOn4CLAYbTNpcs-zLJrW1hrpcLaZbU3mdQ"
+      alt="Canal da Corporação Musical São Luiz de Tolosa no YouTube"
+      loading="lazy">
+
+    <div class="gallery-overlay">
+      <span>▶ Ver todos os vídeos no YouTube</span>
+    </div>
+  </a>
+
+</div>
+
+
+
+<!-- ================= COMPONENTES ================= -->
+<section id="componentes" class="section componentes-section" aria-hidden="true">
+    <h2>Componentes da Corporação Musical São Luiz de Tolosa</h2>
+    <p class="subtitulo">São Luiz do Paraitinga / SP</p>
+
+    <!-- Exemplos de instrumentos -->
+    <div class="instrumento-bloco">
+        <h3>Tuba</h3>
+        <ul>
+            <li>Amauri Alexandre da Silva Vatrins</li>
+            <li>Antonio Carlos Prado Salinas</li>
+            <li>Mauri Vatrins</li>
+        </ul>
+    </div>
+
+    <div class="instrumento-bloco">
+        <h3>Bombardino</h3>
+        <ul>
+            <li>Ewerton Willian de Alvarenga</li>
+            <li>Lucas Gabriel Bernardo da Silva</li>
+        </ul>
+    </div>
+
+    <div class="instrumento-bloco">
+        <h3>Trombone</h3>
+        <ul>
+            <li>Carlos Eduardo Longo</li>
+            <li>Guilherme Luiz Veloso</li>
+            <li>João Gabriel Bueno dos Santos</li>
+            <li>Luiz Gustavo Santos Lopes</li>
+        </ul>
+    </div>
+
+    <div class="instrumento-bloco">
+        <h3>Trompete</h3>
+        <ul>
+            <li>Alan da Silva Santos</li>
+            <li>Alexandre Augusto de Moura Soares</li>
+            <li>Antonio Carlos Ivo Salinas</li>
+            <li>Edevaldo Alves dos Santos</li>
+            <li>Edu Claro dos Santos</li>
+            <li>Felipe de Oliveira Salgado</li>
+            <li>Lucas Augusto da Silva Ferreira</li>
+            <li>Lucas Claro dos Santos</li>
+            <li>Paulo Guilherme Bueno dos Santos</li>
+            <li>Thiago Santos Coelho</li>
+        </ul>
+    </div>
+
+    <div class="instrumento-bloco">
+        <h3>Saxofone Tenor</h3>
+        <ul>
+            <li>Guilherme Fernandes da Silva Santos</li>
+            <li>Marilia Graziela Aparecida Santos</li>
+        </ul>
+    </div>
+
+    <div class="instrumento-bloco">
+        <h3>Saxofone Alto</h3>
+        <ul>
+            <li>Iago Rogerio Castilho</li>
+            <li>José Aparecido Nunes Siqueira</li>
+            <li>José Roberto Galhardo Rodrigues</li>
+            <li>Lucas Gabriel Claro</li>
+            <li>Mayara Cristina Ferreira</li>
+        </ul>
+    </div>
+
+    <div class="instrumento-bloco">
+        <h3>Clarinete</h3>
+        <ul>
+            <li>Bianca de Oliveira Lelis</li>
+            <li>Eloisa Uberti</li>
+            <li>Flavia Beatriz Pereira</li>
+            <li>Gabrielli Cabral Salgado</li>
+            <li>Heloisa Cabral Salgado</li>
+            <li>Isabela Cristina de Moura</li>
+            <li>Lais Santos Gouvêa</li>
+            <li>Zilda Rosa Barreto</li>
+        </ul>
+    </div>
+
+    <div class="instrumento-bloco">
+        <h3>Flauta Transversal</h3>
+        <ul>
+            <li>Barbara Gabriela dos Santos Venceslau</li>
+            <li>Guilherme Venceslau</li>
+            <li>Pollyana Narézio Alves</li>
+            <li>Tainá Aparecida de Paula Oliveira</li>
+        </ul>
+    </div>
+
+    <div class="instrumento-bloco">
+        <h3>Percussão</h3>
+        <ul>
+            <li>Benedito Antonio da Silva</li>
+            <li>Carlos Alberto de Souza</li>
+            <li>Carlos Alberto Guimarães Castro (Bateria / Percussão)</li>
+            <li>Carlos Augusto (Bateria / Percussão)</li>
+            <li>João Vitor de Oliveira Abreu</li>
+            <li>Renan Galvão Barreto de Santana</li>
+            <li>Tiago Rodrigues da Silva</li>
+        </ul>
+    </div>
+</section>
+
+<!-- ================= HISTÓRIA ================= -->
+<section id="historia" class="section" aria-hidden="true">
+    <h2 class="section-title">História</h2>
+    <div class="sobre-container">
+        <img class="sobre-img" src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&q=80&w=1200" alt="Sede e banda antiga">
+        <div class="sobre-text">
+            <p>Em <strong>25 de setembro de 1949</strong>, o Monsenhor Ignácio Gióia comemorava o jubileu de ouro sacerdotal, oportunidade em que as três bandas existentes na cidade tocaram juntas (Corporação Musical S. S. Sacramento, a Santa Cecília e a São Benedito). Dessa junção, surgiu a <strong>Corporação Musical São Luís de Tolosa</strong>, nomeada para homenagear o padroeiro da cidade.</p>
+            
+            <p>A nova banda recebeu do pároco da cidade, Monsenhor Tarcísio de Castro Moura, a permissão para utilizar o imóvel localizado na Rua do Carvalho para realizar seus ensaios.</p>
+            
+            <p>Entretanto, com o tempo, a sede da Banda apresentou sérios problemas estruturais e não comportava a quantidade de integrantes, prejudicando a continuidade de suas ações.</p>
+            
+            <p>A <strong>Associação dos Amigos para Reconstrução e Preservação do Patrimônio Histórico e Cultural de São Luiz do Paraitinga (AMI São Luiz)</strong>, em parceria com a <strong>Concrejato – Obras Especiais</strong> e com o apoio da <strong>Dra. Rosa Maria Barreto Borriello de Andrade Nery</strong>, viabilizou a revitalização da sede da Banda, entregue no dia <strong>30/08/2014</strong>. A nova sede conta com:</p>
+            
+            <ul>
+                <li>Instalações ampliadas e adaptadas para ensaios</li>
+                <li>Tratamento acústico moderno</li>
+                <li>Banheiros reformados</li>
+                <li>Novo mobiliário funcional</li>
+                <li>Exposição de fotos e registros históricos de antigos integrantes e formações da C.M.S.L.T.</li>
+            </ul>
+            
+            <p>A revitalização permitiu que a banda retomasse seus ensaios com mais conforto e segurança, além de abrir espaço para apresentações, cursos e atividades culturais voltadas à comunidade.</p>
+            
+            <p>Atualmente, a Corporação Musical São Luiz de Tolosa continua promovendo a tradição musical da cidade, formando músicos e mantendo viva a cultura local, com ensaios regulares e apresentações em datas comemorativas e eventos oficiais.</p>
+            
+            <p>As visitações à sede da Banda podem ser feitas aos domingos, a partir das <strong>19h30</strong>, durante o horário do ensaio geral da C.M.S.L.T.</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- ================= HORÁRIOS ================= -->
+<section id="horarios" class="section" aria-hidden="true">
+    <h2 class="section-title">Horários</h2>
+    <div class="schedule-container">
+
+        <div class="schedule-card">
+            <h3>Segunda-feira</h3>
+            <p>18h00 – 21h00</p>
+            <span>Teoria e Solfejo</span>
+        </div>
+
+        <div class="schedule-card">
+            <h3>Terça-feira</h3>
+            <p>18h00 – 21h00</p>
+            <span>Aula de instrumentos: Madeiras (Sax Alto e Tenor)</span>
+        </div>
+
+        <div class="schedule-card">
+            <h3>Quarta-feira</h3>
+            <p>18h00 – 21h00</p>
+            <span>Aula de instrumentos: Metais (Trompete, Trombone, Bombardino e Tuba)</span>
+        </div>
+
+        <div class="schedule-card">
+            <h3>Quinta-feira</h3>
+            <p>18h00 – 21h00</p>
+            <span>Musicalização para iniciantes + Madeiras (Clarinetes e Flautas) – Turma 1</span>
+        </div>
+
+        <div class="schedule-card">
+            <h3>Sexta-feira</h3>
+            <p>18h00 – 21h00</p>
+            <span>Madeiras – Clarinetes e Flautas (Turma 2) + Ensaio de grupo (Metais e Madeiras)</span>
+        </div>
+
+        <div class="schedule-card">
+            <h3>Sábado</h3>
+            <p>14h00 – 17h00</p>
+            <span>Aula/Ensaios – Banda completa</span>
+        </div>
+
+        <div class="schedule-card">
+            <h3>Domingo</h3>
+            <p>19h00 – 21h00</p>
+            <span>Ensaio geral – Repertório de apresentações</span>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- ================= CONTATO ================= -->
+<section id="contato" class="section" aria-hidden="true">
+    <h2 class="section-title">Contato</h2>
+
+    <div class="schedule-container">
+
+        <div class="schedule-card">
+            <h3>Endereço</h3>
+            <p>Rua do Carvalho</p>
+            <span>São Luiz do Paraitinga – SP<br>CEP: 12140-000</span>
+        </div>
+
+        <div class="schedule-card">
+            <h3>Telefone / WhatsApp</h3>
+
+            <p style="display: flex; align-items: center; gap: 10px;">
+                <!-- Ícone do WhatsApp (SVG) -->
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill="#25D366" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.67.15-.198.297-.768.967-.94 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.173.198-.297.297-.496.099-.198.05-.372-.025-.521-.075-.148-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.076 4.487.709.306 1.262.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+                    <path fill="#25D366" d="M12.004 2.003c-5.522 0-9.997 4.475-9.997 9.997 0 1.76.458 3.465 1.328 4.972L2 22l5.16-1.327c1.443.788 3.088 1.206 4.842 1.206 5.522 0 9.997-4.476 9.997-9.998 0-5.522-4.475-9.997-9.997-9.997zm0 17.964c-1.56 0-3.08-.42-4.4-1.214l-.314-.186-3.06.79.82-2.985-.198-.314a8.43 8.43 0 01-1.29-4.47c0-4.688 3.813-8.502 8.502-8.502 4.69 0 8.503 3.814 8.503 8.502 0 4.689-3.813 8.499-8.503 8.499z"/>
+                </svg>
+
+                <a href="https://wa.me/5512997609112" target="_blank" 
+                style="color: var(--gold); text-decoration: none; font-weight: bold;">
+                    (12) 99117-6866
+                </a>
+            </p>
+
+            <span>Atendimento para assuntos gerais, apresentações e matrículas.</span>
+        </div>
+
+
+        <div class="schedule-card">
+            <h3>E-mail</h3>
+            <p>corpmslt@gmail.com</p>
+            <span>Entre em contato para dúvidas, documentos ou solicitações.</span>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- Divisor visual antes dos cards -->
+<div class="cards-divider">
+    <hr>
+</div>
+
+
+<!-- ================= PLACEHOLDERS ================= -->
+<section id="transparencia" class="section" aria-hidden="true">
+    <h2 class="section-title">Transparência</h2>
+    <p class="section-sub">Espaço para prestação de contas, editais e documentos oficiais.</p>
+</section>
+
+<section id="informativo" class="section" aria-hidden="true">
+    <h2 class="section-title">Informativo</h2>
+    <p class="section-sub">Notícias, avisos e calendários.</p>
+</section>
+
+<section id="horarios" class="section" aria-hidden="true">
+    <h2 class="section-title">Horários</h2>
+    <p class="section-sub">Horários de aulas e ensaios.</p>
+</section>
+
+<section id="contato" class="section" aria-hidden="true">
+    <h2 class="section-title">Contato</h2>
+    <p class="section-sub">Contato.</p>
+</section>
+
+    <div class="cards-menu-container">
+        <a class="card-menu" onclick="showSection('componentes')"><h3>Componentes</h3><p>Veja a lista de músicos.</p></a>
+        <a class="card-menu" onclick="showSection('transparencia')"><h3>Transparência</h3><p>Documentos oficiais.</p></a>
+        <a class="card-menu" onclick="showSection('informativo')"><h3>Informativo</h3><p>Notícias e avisos.</p></a>
+        <a class="card-menu" onclick="showSection('historia')"><h3>História</h3><p>Nossa origem e sede.</p></a>
+        <a class="card-menu" onclick="showSection('horarios')"><h3>Horários</h3><p>Aulas e ensaios.</p></a>
+        <a class="card-menu" onclick="showSection('contato')"><h3>Contato</h3><p>Contato.</p></a>
+
+    </div>
+
+<footer>
+  <div class="footer-text">
+      © 2025 Corporação Musical São Luiz de Tolosa — Todos os direitos reservados.
+  </div>
+
+  <div class="footer-social">
+      <span>Siga-nos nas redes sociais:</span>
+      <div class="social-icons">
+          <a href="https://www.youtube.com/@corporacaomusicalsaoluizde7385" target="_blank" rel="noopener">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" class="social-icon">
+          </a>
+          <a href="https://www.instagram.com/bandasaoluisdetolosa/" target="_blank" rel="noopener">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" class="social-icon">
+          </a>
+          <a href="https://wa.me/5511999999999" target="_blank" rel="noopener">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="social-icon">
+          </a>
+      </div>
+  </div>
+</footer>
+
+<script>
+// Inicializa o Fancybox para Imagens e Vídeos
+Fancybox.bind("[data-fancybox]", {});
+
+// Gerenciamento de Seções (Single Page Application style)
+function showSection(id) {
+    // Esconde todas as seções
+    document.querySelectorAll('.section').forEach(s => {
+        s.classList.remove('active');
+    });
+
+    // Se for 'inicio', apenas rola para o topo
+    if(id === 'inicio'){
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+        document.getElementById('inicio').classList.add('active');
+        return;
+    }
+
+    const target = document.getElementById(id);
+    if(target) {
+        target.classList.add('active');
+        const headerHeight = document.querySelector('header').offsetHeight;
+        window.scrollTo({
+            top: target.offsetTop - headerHeight - 20,
+            behavior: 'smooth'
+        });
+    }
+}
+
+// Menu Hamburger
+const menuToggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('header nav');
+
+menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+    menuToggle.classList.toggle('active');
+});
+
+// Fecha o menu ao clicar em um link (Mobile)
+nav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+        nav.classList.remove('open');
+        menuToggle.classList.remove('active');
+    });
+});
+
+</script>
+
+</body>
+</html>
